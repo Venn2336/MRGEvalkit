@@ -1,5 +1,5 @@
 # MRGEvalKit
-MRGEvalKit is the evaluation framework for AtomiMed, a comprehensive multi-modal benchmark spanning X-ray, CT, MRI, and Ultrasound modalities.
+MRGEvalKit is the evaluation framework for AtomiMed, a comprehensive multi-modal benchmark spanning X-ray, CT, MRI, and Ultrasound modalities. Our detailed repository will be coming soon.
 
 ## Installation
 To install requirements:
