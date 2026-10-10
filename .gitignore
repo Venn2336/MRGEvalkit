@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+datas/
+data/
+/artifacts/
+.modelscope/
+eval_results/
+eval_results_*/

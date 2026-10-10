@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="368" viewBox="0 0 1200 368" role="img" aria-labelledby="title desc">
+<title id="title">The diagnosis matches. The location does not.</title><desc id="desc">Illustrative comparison: both reports describe a 6 mm pulmonary nodule, but reference says right upper lobe and prediction says left upper lobe. Disease and size match; location differs. Not a measured model output.</desc>
+<rect x="1" y="1" width="1198" height="366" rx="20" fill="#F7F9FD" stroke="#DFE5EF"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="34" y="39" font-size="12" font-weight="700" letter-spacing="1.8" fill="#64748B">A CLINICAL DETAIL THAT CHANGES THE MEANING</text>
+<rect x="34" y="65" width="552" height="98" rx="12" fill="#FFFFFF" stroke="#DDE5EF"/><rect x="610" y="65" width="556" height="98" rx="12" fill="#FFFFFF" stroke="#DDE5EF"/>
+<text x="54" y="91" font-size="11" font-weight="700" letter-spacing="1.4" fill="#17846D">REFERENCE REPORT</text><text x="630" y="91" font-size="11" font-weight="700" letter-spacing="1.4" fill="#7660BD">GENERATED REPORT</text>
+<text x="54" y="122" font-size="19" fill="#17253C">A 6 mm nodule in the <tspan font-weight="700" fill="#11735E">right</tspan> upper lobe.</text><text x="630" y="122" font-size="19" fill="#17253C">A 6 mm nodule in the <tspan font-weight="700" fill="#C95244">left</tspan> upper lobe.</text>
+<text x="54" y="145" font-size="11" fill="#7C899D">GT clinical facts</text><text x="630" y="145" font-size="11" fill="#7C899D">A laterality error in otherwise similar text</text>
+<g font-size="13" font-weight="700">
+<rect x="34" y="189" width="362" height="89" rx="12" fill="#E8F5EF"/><text x="53" y="216" fill="#157354">DISEASE</text><text x="53" y="248" font-size="20" fill="#173C30">Pulmonary nodule</text><text x="313" y="247" fill="#157354">MATCH</text>
+<rect x="419" y="189" width="362" height="89" rx="12" fill="#E8F5EF"/><text x="438" y="216" fill="#157354">SIZE</text><text x="438" y="248" font-size="20" fill="#173C30">6 mm</text><text x="699" y="247" fill="#157354">MATCH</text>
+<rect x="804" y="189" width="362" height="89" rx="12" fill="#FFF0EB"/><text x="823" y="216" fill="#B94C39">LOCATION</text><text x="823" y="248" font-size="20" fill="#783629">Right vs. left</text><text x="1070" y="247" fill="#B94C39">DIFFERS</text>
+</g>
+<text x="35" y="317" font-size="16" font-weight="700" fill="#24364E">Evaluate the finding and its attributes separately.</text><text x="35" y="341" font-size="12" fill="#718096">Illustrative example · demonstrates the evaluation concept, not an experimental result.</text>
+</g></svg>

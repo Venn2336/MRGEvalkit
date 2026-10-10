@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">AtomiMed — Every clinical detail counts.</title><desc id="desc">Clinical reports become disease and attribute facts across X-ray, CT, MRI, and ultrasound. MICCAI 2026.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1425"/><stop offset="1" stop-color="#172544"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#8B7AFF" stop-opacity=".23"/><stop offset="1" stop-color="#8B7AFF" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1200" height="480" rx="24" fill="url(#bg)"/><rect width="1200" height="480" rx="24" fill="url(#grid)"/><ellipse cx="940" cy="180" rx="360" ry="300" fill="url(#glow)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="48" y="39" width="140" height="28" rx="14" fill="#243853"/><circle cx="64" cy="53" r="4" fill="#65E6BE"/><text x="77" y="58" font-size="12" font-weight="700" letter-spacing="1.2" fill="#BBD4E6">MICCAI 2026</text>
+<text x="46" y="145" font-size="74" font-weight="800" letter-spacing="-3" fill="#F6F8FF">Atomi<tspan fill="#77E7C7">Med</tspan></text>
+<text x="49" y="193" font-size="29" font-weight="600" letter-spacing="-.6" fill="#FFFFFF">Every clinical detail counts.</text>
+<text x="49" y="238" font-size="18" fill="#B5C3D9">Hierarchical atomic fact-checking</text>
+<text x="49" y="266" font-size="18" fill="#B5C3D9">for medical report evaluation.</text>
+<g font-size="12" font-weight="700" fill="#CCD7EA">
+<rect x="49" y="306" width="75" height="31" rx="8" fill="#22344E"/><text x="66" y="326">X-RAY</text>
+<rect x="133" y="306" width="52" height="31" rx="8" fill="#22344E"/><text x="150" y="326">CT</text>
+<rect x="194" y="306" width="60" height="31" rx="8" fill="#22344E"/><text x="211" y="326">MRI</text>
+<rect x="263" y="306" width="120" height="31" rx="8" fill="#22344E"/><text x="279" y="326">ULTRASOUND</text>
+</g>
+<path d="M49 380H523" stroke="#33435E"/><text x="49" y="414" font-size="13" font-weight="700" fill="#D2DEF0">AtomiMed</text><text x="126" y="414" font-size="13" fill="#788CA9"> / Method</text><text x="218" y="414" font-size="13" font-weight="700" fill="#D2DEF0">OmniMRG-Bench</text><text x="331" y="414" font-size="13" fill="#788CA9"> / Data</text><text x="402" y="414" font-size="13" font-weight="700" fill="#D2DEF0">MRGEvalKit</text>
+<rect x="599" y="44" width="551" height="384" rx="18" fill="#0D192C" stroke="#354760"/>
+<circle cx="621" cy="64" r="4" fill="#71809A"/><circle cx="636" cy="64" r="4" fill="#71809A"/><circle cx="651" cy="64" r="4" fill="#71809A"/><text x="675" y="69" font-size="11" letter-spacing="1.6" fill="#9CACC3">FROM REPORT TO CLINICAL FACTS</text>
+<rect x="621" y="88" width="507" height="74" rx="10" fill="#1C2C44"/><text x="638" y="115" font-size="14" fill="#F0F4FF">“A 6 mm nodule is present in the right upper lobe.”</text><text x="638" y="142" font-size="11" letter-spacing="1.1" fill="#8CA0BC">ILLUSTRATIVE REPORT</text>
+<path d="M875 162V190" stroke="#77E7C7" stroke-width="2"/><path d="m869 183 6 7 6-7" fill="none" stroke="#77E7C7" stroke-width="2"/>
+<rect x="730" y="191" width="290" height="66" rx="11" fill="#143C3A" stroke="#39766B"/><text x="750" y="214" font-size="11" letter-spacing="1.5" fill="#7DDDC1">DISEASE-LEVEL FACT</text><text x="750" y="240" font-size="19" font-weight="700" fill="#E3FFF4">Pulmonary nodule</text><circle cx="993" cy="225" r="12" fill="#77E7C7"/><path d="m987 225 4 4 8-9" fill="none" stroke="#143C3A" stroke-width="2"/>
+<path d="M875 257V279H751V296M875 279H1012V296" fill="none" stroke="#7F72BE" stroke-width="2"/>
+<rect x="633" y="296" width="237" height="75" rx="10" fill="#272445" stroke="#5E538B"/><text x="651" y="321" font-size="11" letter-spacing="1.2" fill="#BEAEFC">LOCATION</text><text x="651" y="349" font-size="19" font-weight="700" fill="#F0EAFF">Right upper lobe</text>
+<rect x="885" y="296" width="237" height="75" rx="10" fill="#272445" stroke="#5E538B"/><text x="903" y="321" font-size="11" letter-spacing="1.2" fill="#BEAEFC">SIZE</text><text x="903" y="349" font-size="19" font-weight="700" fill="#F0EAFF">6 mm</text>
+<text x="631" y="402" font-size="12" fill="#93A7C4">Disease detection. Attribute accuracy. Traceable evidence.</text>
+</g></svg>
