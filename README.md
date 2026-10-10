@@ -97,8 +97,6 @@ The repository provides model adapters, report-generation dataset loaders and ex
 ```bash
 git clone https://github.com/Venn2336/MRGEvalkit.git
 cd MRGEvalkit
-unzip models.zip
-unzip utils.zip
 pip install -r requirements_qwen3.txt
 ```
 
@@ -107,6 +105,8 @@ Use a compatible Linux / NVIDIA GPU environment for inference. Before launching,
 - **CLI entry:** `eval.py`
 - **Multi-GPU launcher:** `eval_chunked.sh`
 - **Model registry:** `LLMs.py`
+- **Model adapters:** [`models/`](models/)
+- **Dataset loaders and utilities:** [`utils/`](utils/)
 - **Dataset dispatch:** `benchmarks.py`
 
 GT QA data, report-generation outputs and final AtomiMed scores are different artifacts. The current root-level workflow exports generated and reference reports; refer to the [code guide](docs/repository-guide.zh-CN.md) for the published scoring-code boundaries.
